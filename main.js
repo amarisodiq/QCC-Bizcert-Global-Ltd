@@ -80,9 +80,9 @@ typeWriter();
 
 // hero animation
 const images = [
-  './image/service-bg.jpg',
-  './image/home-bg.jpg',
-  './image/home-bg-1.jpg',
+  './image/service-bg.webp',
+  './image/home-bg.webp',
+  './image/home-bg-1.webp',
 ];
 
 let current = 0;
