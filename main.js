@@ -85,6 +85,12 @@ const images = [
   './image/home-bg-1.webp',
 ];
 
+// Preload all images
+images.forEach((src) => {
+  const img = new Image();
+  img.src = src;
+});
+
 let current = 0;
 const hero = document.querySelector('.bg-hero');
 
