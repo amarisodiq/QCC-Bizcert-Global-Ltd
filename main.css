@@ -17,13 +17,13 @@ body {
 
 /* Hero section */
 .bg-hero {
-    background-image: url(./image/home-bg-1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
+    transition: background-image 1s ease-in-out;
 }
 
 .dark-hero-effect {
