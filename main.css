@@ -44,6 +44,17 @@ body {
     transition: background-image 1s ease-in-out;
 }
 
+.bg-header {
+    background-image: url(./image/about-sec.jpeg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.dark-sec {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
 .dark-hero-effect {
     position: absolute;
     top: 0;
