@@ -58,9 +58,9 @@ typeWriter();
 
 // hero animation
 const images = [
-  './image/service-bg.webp',
-  './image/home-bg.webp',
-  './image/home-bg-1.webp',
+  './image/Supplying.png',
+  './image/asphalt.jpeg',
+  './image/hero0.jpeg',
 ];
 
 // Preload all images
