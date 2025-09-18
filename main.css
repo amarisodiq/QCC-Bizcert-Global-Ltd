@@ -351,3 +351,67 @@ nav>ul {
     background-color: #FEFE00;  /* Yellow background on hover */
     color: #000000;             /* Black text */
   }
+
+  .btn-quote {
+    background-color:#FEFE00; 
+    color:#000; 
+    font-weight: 600; 
+    border-radius:6px; 
+    padding: 10px 20px; 
+    margin-right:10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border:none;
+  }
+  .btn-quote:hover {
+    background-color:#000; 
+    color:#fff;
+  }
+
+  .btn-about {
+    background-color:transparent; 
+    color:#000; 
+    font-weight:bold; 
+    border:1px solid #FEFE00; 
+    border-radius:6px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  .btn-about:hover {
+    background-color:#FEFE00; 
+    color:#000;
+  }
+
+  .hero-right {
+    background: #f7f7f7;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+  }
+
+
+
+  .why-right {
+    display: grid
+;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+}
+  .why-item {
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+
+
+:root {
+    --card-shadow: 0 6px 18px rgba(11, 11, 11, 0.08);
+}
