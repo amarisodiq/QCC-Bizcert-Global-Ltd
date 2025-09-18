@@ -335,3 +335,19 @@ nav>ul {
 
 
 /* btn */
+.contact-btn {
+    background-color: #ffffff;   /* White background */
+    color: #000000;             /* Black text */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .contact-btn:hover {
+    background-color: #FEFE00;  /* Yellow background on hover */
+    color: #000000;             /* Black text */
+  }
